@@ -1,0 +1,29 @@
+.list {
+  max-width: 30rem;
+  margin: 5rem auto;
+  background-color: antiquewhite;
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  padding: 3rem;
+}
+.list-heading {
+  font-size: 3rem;
+  color: brown;
+}
+
+.list-items {
+  font-size: 1.6rem;
+}
+
+.item {
+  text-decoration: none;
+  display: block;
+  padding: 5px;
+  color: black;
+}
+
+.item:hover {
+  cursor: pointer;
+  background-color: aliceblue;
+}

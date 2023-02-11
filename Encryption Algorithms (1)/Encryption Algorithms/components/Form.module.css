@@ -1,0 +1,32 @@
+.form {
+  max-width: 50rem;
+  margin: 6rem auto;
+  background-color: antiquewhite;
+  flex-direction: column;
+  display: flex;
+  padding: 4rem;
+  gap: 2.5rem;
+  border-radius: 5px;
+}
+.heading {
+  align-self: center;
+  font-size: 3rem;
+}
+
+.input-field {
+  display: grid;
+  grid-template-columns: 40fr 60fr;
+  font-size: 1.6rem;
+}
+.btn {
+  align-self: center;
+  background-color: brown;
+  padding: 5px 1.5rem;
+  color: white;
+  border-radius: 2px;
+  border: none;
+}
+.btn:hover {
+  background-color: rgb(153, 74, 74);
+  cursor: pointer;
+}

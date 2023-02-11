@@ -1,0 +1,26 @@
+.result {
+  max-width: 50rem;
+  margin: 10rem auto;
+  background-color: antiquewhite;
+  padding: 2rem;
+  font-size: 1.8rem;
+  overflow: scroll;
+  display: flex;
+  justify-content: space-between;
+}
+.btn {
+  padding: 5px 1rem;
+  margin: 0 auto;
+  background-color: brown;
+  border: none;
+  border-radius: 2px;
+  color: white;
+}
+.btn:hover {
+  cursor: pointer;
+  background-color: rgb(94, 26, 26);
+}
+.btn-container {
+  display: flex;
+  justify-content: center;
+}

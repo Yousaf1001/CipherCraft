@@ -1,0 +1,21 @@
+.nav-container {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+  padding: 3rem;
+  background-color: rgb(194, 148, 87);
+}
+.nav-heading {
+  font-size: 3rem;
+}
+.home {
+  font-size: 2rem;
+  text-decoration: none;
+  color: bisque;
+}
+
+.home:hover {
+  cursor: pointer;
+  color: black;
+}
